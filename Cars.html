@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Car Sounds</title>
+
+		<style type="text/css">
+			
+			p{
+				font-family: "Garamond";
+				font-size: 21px;
+				color: rgb(255, 255, 255);
+				text-align: center;
+			}
+			body{
+				background-image: url("https://s-media-cache-ak0.pinimg.com/originals/f7/29/3f/f7293f0d57b7c58468f51180f8bd987b.gif");
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+		</style>
+
+	</head>
+	<body>
+	
+		 <p>This website is going to show the exhaust of different cars. It's going to go by Muscle and Exotic.</p>
+		 
+		<img src="http://www.evasivemotorsports.com/mm5/graphics/00000001/t1r_exhaust_r35.jpg">	
+		<audio style="display: none" id="Gtr" controls>
+		  <source src="carsound.mp3" type="audio/mp3">
+		</audio>
+		<button onclick="myFunction()">Modded Gtr Exhaust</button> 
+		
+		<img style="width:530px;height:400px;" src="https://qph.ec.quoracdn.net/main-qimg-37c40a0f670323b8b5a3ce43ccef9367-c">	
+		<audio style="display: none" id="Hc" controls>
+		  <source src="carsound2.mp3" type="audio/mp3">
+		</audio>
+		<button onclick="hcsound()">Modded HellCat Exhaust</button> 
+		
+
+		<img style="width:430px;height:300px;" src="http://pics.porsche.com/rtt/iris?COSY-EU-100-17116bXqc6eP3Hi1qwT9HcnyInrHKxJTTPE3kUWFYRpwY4EJlcKx7Jm8Uv1TGFHI6uWgds6yJ5EiSRlW9ACvW6pXdGA72EGLf%25JSPYcWN9y0YtdMt3Twl2HCcB1UqlIspJ5e5VbmgD63ew3evCvWYTO6qoa1m86aW%25cz91wxuzbUUdMG8WGkiheFcLKCW1T%25jLKEVEehYbOt5FNmm5ggA4qF6oaqiVQOFmj8BSCfpMbduJXNVWl2Qukz1csmfBHuTzIqya3vyMrh0U7q5">	
+		<audio style="display: none" id="P9" controls>
+		  <source src="carsound3.mp3" type="audio/mp3">
+		</audio>
+		<button onclick="p9sound()">Modded Porsche 911 Exhaust</button> 
+		
+		<img style="width:430px;height:300px;" src="http://www.motorverso.com/wp-content/uploads/2016/03/Lamborghini-Centenario-2.jpg">	
+		<audio style="display: none" id="Lc" controls>
+		  <source src="carsound4.mp3" type="audio/mp3">
+		</audio>
+		<button onclick="lcsound()">Lamborghini Centenario Exhaust</button> 
+		<a href="group.html">Car Specs</a>
+		<a href="Car Project.html">BONUS PAGE</a>
+
+		<script>
+			function myFunction() {
+				document.getElementById("Gtr").play()
+			}
+			function hcsound() {
+				document.getElementById("Hc").play()
+			}
+			function p9sound() {
+				document.getElementById("P9").play()
+			}
+			function lcsound() {
+				document.getElementById("Lc").play()
+			}
+		</script> 	
+
+	</body>
+</html>
